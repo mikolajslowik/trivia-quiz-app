@@ -1,0 +1,33 @@
+.progress {
+  font-size: 24px;
+  color: #ff7878;
+  font-weight: bold;
+}
+
+.slash {
+  font-size: 20px;
+  color: #4953be;
+  font-weight: bold;
+}
+
+.total {
+  font-size: 20px;
+  color: #4953be;
+  font-weight: bold;
+}
+
+.progressBar {
+  width: 80vw;
+  max-width: 500px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: #dbdeff;
+}
+
+.progressBarLevel {
+  height: 100%;
+  width: 10%;
+  border-radius: 5px;
+  background: linear-gradient(180deg, #ff7878 0%, #ff7878 100%);
+  transition: 0.1s;
+}

@@ -1,0 +1,18 @@
+.playBtn {
+  position: absolute;
+  bottom: 5vh;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.finishWrapper .exitContainer {
+  position: absolute;
+  top: 5vh;
+  right: 5vh;
+}
+
+.listOfResults {
+  overflow-y: scroll;
+  margin-top: 150px;
+  height: 60vh;
+}

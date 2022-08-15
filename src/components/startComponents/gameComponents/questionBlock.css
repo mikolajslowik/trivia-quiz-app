@@ -1,0 +1,36 @@
+.questionBlockWrapper {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #4953be;
+}
+
+.category {
+  margin: 90px auto 0;
+  padding: 0 30px;
+  height: 110px;
+  max-width: 400px;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.level {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.inquire {
+  width: 300px;
+  margin: 24px auto;
+  font-size: 24px;
+}
+
+.btnContainer {
+  position: absolute;
+  bottom: 10vh;
+  left: 50%;
+  transform: translateX(-50%);
+}

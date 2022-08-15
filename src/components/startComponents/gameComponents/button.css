@@ -1,0 +1,20 @@
+.button {
+  width: 300px;
+  height: 60px;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid #4953be;
+  color: white;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.falseBtn {
+  background-color: white;
+  color: #4953be;
+}
+
+.trueBtn {
+  background-color: #4953be;
+  color: white;
+}

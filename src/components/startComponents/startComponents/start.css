@@ -1,0 +1,73 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: grid;
+}
+
+.logoContainer {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  transform: translateX(-50%);
+}
+
+.logoContainer h2 {
+  color: white;
+  text-align: center;
+}
+
+.triviaLogo {
+  width: 400px;
+  height: auto;
+  margin-top: -40px;
+}
+
+.wrapper {
+  flex-direction: column;
+}
+
+.amountWrapper .amount,
+.select {
+  width: 250px;
+  height: 50px;
+  font-size: 30px;
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+  background-color: #4751c0;
+}
+
+.amount span {
+  padding-left: 5px;
+  line-height: 50px;
+}
+
+.controlsWrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.centered {
+  margin-top: 10px;
+}
+
+.startBtn {
+  width: 250px;
+  height: 50px;
+  font-size: 30px;
+  border: 2px solid #ff6065;
+  color: white;
+  background: linear-gradient(90deg, #ffa67a 0%, #ff6065 100%);
+  border-radius: 10px;
+}

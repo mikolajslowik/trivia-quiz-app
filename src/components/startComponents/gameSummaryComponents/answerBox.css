@@ -1,0 +1,42 @@
+.answerBoxWrapper {
+  position: relative;
+  width: 300px;
+  height: 60px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+  margin: 5px auto;
+  transform: translateX(2px);
+}
+
+.answerBoxQuestion {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  width: 85%;
+  color: #464fac;
+  padding: 5px;
+  font-size: 10px;
+  font-weight: normal;
+}
+
+.answerBoxIsCorrect {
+  width: 10%;
+}
+
+.sign {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.right {
+  background-color: white;
+}
+
+.wrong {
+  background-color: #ffdbdb;
+}

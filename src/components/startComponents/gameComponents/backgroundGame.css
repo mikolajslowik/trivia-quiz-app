@@ -1,0 +1,37 @@
+.gameWrapper {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.gameWrapper .bcg {
+  position: absolute;
+  z-index: -1;
+  scale: 0.5;
+}
+
+.stainBcg1 {
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+}
+.stainBcg2 {
+  bottom: 0;
+  left: 0;
+  transform: translate(-50%, 50%);
+}
+.stainBcg3 {
+  top: 5vh;
+  right: 0;
+  transform: translate(50%, -50%);
+}
+.stainBcg4 {
+  bottom: 0;
+  right: 0;
+  transform: translate(50%, 50%);
+}
+.stainBcg5 {
+  top: 0;
+  right: 0;
+  transform: translate(50%, 50%);
+}

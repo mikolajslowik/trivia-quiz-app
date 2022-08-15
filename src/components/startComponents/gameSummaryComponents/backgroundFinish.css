@@ -1,0 +1,43 @@
+.backgroundFinishWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #464fac;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.backgroundFinishWrapper .bgc {
+  position: absolute;
+}
+
+.stainFinish1 {
+  top: 15vh;
+  right: 0;
+  scale: 0.7;
+  transform: translateX(50%);
+}
+
+.stainFinish2,
+.stainFinish3 {
+  bottom: 0;
+  right: 0;
+}
+.stainFinish4 {
+  top: 40vh;
+  left: 0;
+  scale: 1;
+}
+.stainFinish5 {
+  top: 10vh;
+  left: 0;
+  scale: 1;
+}
+
+.stainFinish6 {
+  top: 0;
+  right: 0;
+  scale: 2;
+}

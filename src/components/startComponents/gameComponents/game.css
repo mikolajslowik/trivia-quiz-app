@@ -1,0 +1,26 @@
+.gameWrapper {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.gameWrapper .exitContainer {
+  position: absolute;
+  top: 5vh;
+  right: 5vh;
+  z-index: 2;
+}
+
+.loading {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.errorMessage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}

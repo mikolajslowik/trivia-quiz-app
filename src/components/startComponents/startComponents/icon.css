@@ -1,0 +1,10 @@
+.wrapperIcon {
+  display: flex;
+  height: 50px;
+}
+
+.text {
+  display: inline-block;
+  color: #ff6065;
+  margin: auto 5px;
+}
