@@ -1,14 +1,14 @@
-import { useAppDispatch } from "../../../app/hooks";
+import { useAppDispatch } from "../../app/hooks";
 import {
   clearFinalAnswers,
   clearQuestions,
   setIndex,
   setPageMode,
   setScore,
-} from "../../../features/quiz/quizSlice";
+} from "../../features/quiz/quizSlice";
 import "./exit.css";
-import EXIT from "../../../images/game/Exit.svg";
-import EXITWhite from "../../../images/game/ExitWhite.svg";
+import EXIT from "../../images/game/Exit.svg";
+import EXITWhite from "../../images/game/ExitWhite.svg";
 
 export interface ExitProps {
   directory: string;

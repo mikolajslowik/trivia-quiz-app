@@ -1,12 +1,12 @@
-import { useAppDispatch, useAppSelector } from "../../../app/hooks";
+import { useAppDispatch, useAppSelector } from "../../app/hooks";
 import {
   selectIndex,
   selectQuestions,
   setFinalAnswers,
   setIndex,
   setPageMode,
-} from "../../../features/quiz/quizSlice";
-import { Answer } from "../../../interfaces";
+} from "../../features/quiz/quizSlice";
+import { Answer } from "../../interfaces";
 import "./button.css";
 
 export interface ButtonProps {

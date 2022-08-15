@@ -1,9 +1,9 @@
 import "./personalScore.css";
-import Avatar from "../../../images/finish/Person.svg";
-import { useAppSelector } from "../../../app/hooks";
-import { selectFinalAnswers } from "../../../features/quiz/quizSlice";
+import Avatar from "../../images/finish/Person.svg";
+import { useAppSelector } from "../../app/hooks";
+import { selectFinalAnswers } from "../../features/quiz/quizSlice";
 import Stars from "./Stars";
-import { correctAnserwAmount } from "../../../utils";
+import { correctAnserwAmount } from "../../utils";
 
 function PersonalScore() {
   const finalAnswers = useAppSelector(selectFinalAnswers);

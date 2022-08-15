@@ -1,4 +1,4 @@
-import { useAppDispatch, useAppSelector } from "../../../app/hooks";
+import { useAppDispatch, useAppSelector } from "../../app/hooks";
 import {
   clearFinalAnswers,
   clearQuestions,
@@ -7,8 +7,8 @@ import {
   setIndex,
   setPageMode,
   setScore,
-} from "../../../features/quiz/quizSlice";
-import { correctAnserwAmount } from "../../../utils";
+} from "../../features/quiz/quizSlice";
+import { correctAnserwAmount } from "../../utils";
 import "./playAgainButton.css";
 
 function PlayAgainButton() {

@@ -1,10 +1,10 @@
 import "./start.css";
-import Cup from "../../../images/start/Cup.svg";
-import Star from "../../../images/start/Star.svg";
-import TriviaLogo from "../../../images/start/Trivia-Logo.svg";
+import Cup from "../../images/start/Cup.svg";
+import Star from "../../images/start/Star.svg";
+import TriviaLogo from "../../images/start/Trivia-Logo.svg";
 import Icon from "./Icon";
-import { useAppDispatch, useAppSelector } from "../../../app/hooks";
-import { selectScore, setPageMode } from "../../../features/quiz/quizSlice";
+import { useAppDispatch, useAppSelector } from "../../app/hooks";
+import { selectScore, setPageMode } from "../../features/quiz/quizSlice";
 import Select from "./Select";
 import BackgroundStart from "./BackgroundStart";
 

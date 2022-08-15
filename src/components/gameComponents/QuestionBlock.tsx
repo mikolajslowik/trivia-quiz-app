@@ -1,15 +1,19 @@
 import "./questionBlock.css";
-import { QuestionBlockProps } from "../../../interfaces";
+import { QuestionBlockProps } from "../../interfaces";
 import ProgressBar from "./ProgressBar";
 import Button from "./Button";
 
 function QuestionBlock(props: QuestionBlockProps) {
   const regexSingleQuotation = /&#039;/g;
   const regexDoubleQuotation = /&quot;/g;
+  const regexQuoteEnd = /&rsquo;/g;
+  const regexQuoteStart = /&lsquo;/g;
 
   const questionNormalized = props.data?.question
     .replace(regexSingleQuotation, "'")
-    .replace(regexDoubleQuotation, '"');
+    .replace(regexDoubleQuotation, '"')
+    .replace(regexQuoteStart, "‘")
+    .replace(regexQuoteEnd, "’");
 
   return (
     <div className="questionBlockWrapper">

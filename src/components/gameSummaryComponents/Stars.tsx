@@ -1,8 +1,8 @@
-import { useAppSelector } from "../../../app/hooks";
-import { selectFinalAnswers } from "../../../features/quiz/quizSlice";
+import { useAppSelector } from "../../app/hooks";
+import { selectFinalAnswers } from "../../features/quiz/quizSlice";
 import "./stars.css";
-import STAR from "../../../images/finish/Star.svg";
-import { correctAnserwAmount } from "../../../utils";
+import STAR from "../../images/finish/Star.svg";
+import { correctAnserwAmount } from "../../utils";
 
 function Stars() {
   const finalAnswers = useAppSelector(selectFinalAnswers);

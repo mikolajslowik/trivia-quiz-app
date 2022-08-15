@@ -1,9 +1,9 @@
 import "./backgroundGame.css";
-import StainBcg1 from "../../../images/game/Stain-Purple.svg";
-import StainBcg2 from "../../../images/game/Stain-Purple-Light.svg";
-import StainBcg3 from "../../../images/start/Stain-Stripes-Pink.svg";
-import StainBcg4 from "../../../images/game/Stain-Pink.svg";
-import StainBcg5 from "../../../images/game/Stain-Purple-Small.svg";
+import StainBcg1 from "../../images/game/Stain-Purple.svg";
+import StainBcg2 from "../../images/game/Stain-Purple-Light.svg";
+import StainBcg3 from "../../images/start/Stain-Stripes-Pink.svg";
+import StainBcg4 from "../../images/game/Stain-Pink.svg";
+import StainBcg5 from "../../images/game/Stain-Purple-Small.svg";
 
 function BackgroundGame() {
   return (

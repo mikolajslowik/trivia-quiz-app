@@ -1,5 +1,5 @@
-import { useAppSelector } from "../../../app/hooks";
-import { selectFinalAnswers } from "../../../features/quiz/quizSlice";
+import { useAppSelector } from "../../app/hooks";
+import { selectFinalAnswers } from "../../features/quiz/quizSlice";
 import Exit from "../gameComponents/Exit";
 import AnswerBox from "./AnswerBox";
 import BackgroundFinish from "./BackgorunFinish";

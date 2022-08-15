@@ -1,11 +1,11 @@
 import "./game.css";
-import { useAppDispatch, useAppSelector } from "../../../app/hooks";
+import { useAppDispatch, useAppSelector } from "../../app/hooks";
 import {
   selectDifficulty,
   selectIndex,
   selectQuestions,
   setQuestions,
-} from "../../../features/quiz/quizSlice";
+} from "../../features/quiz/quizSlice";
 import BackgroundGame from "./BackgroundGame";
 import { useEffect, useState } from "react";
 import QuestionBlock from "./QuestionBlock";
@@ -19,9 +19,9 @@ function Game() {
   const index = useAppSelector(selectIndex);
 
   const baseURL = "https://opentdb.com/api.php?";
-  const amountURL = "amount=10";
-  const difficultyURL = `difficulty=${difficulty}`;
-  const typeURL = "type=boolean";
+  const amountPARAMS = "amount=10";
+  const difficultyPARAMS = `difficulty=${difficulty}`;
+  const typePARAMS = "type=boolean";
 
   const [loading, setLoading] = useState(false);
 
@@ -29,7 +29,7 @@ function Game() {
     const controller = new AbortController();
     if (loading) return;
     setLoading(true);
-    fetch(`${baseURL}${amountURL}&${difficultyURL}&${typeURL}`, {
+    fetch(`${baseURL}${amountPARAMS}&${difficultyPARAMS}&${typePARAMS}`, {
       method: "GET",
       signal: controller.signal,
     })

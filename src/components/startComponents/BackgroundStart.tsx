@@ -1,8 +1,8 @@
 import "./backgroundStart.css";
-import StainStart1 from "../../../images/start/Stain-Purple.svg";
-import StainStart2 from "../../../images/start/Stain-Purple-2.svg";
-import StainStart3 from "../../../images/start/Stain-Stripes-Pink.svg";
-import StainStart4 from "../../../images/start/Stain-Stripes-White.svg";
+import StainStart1 from "../../images/start/Stain-Purple.svg";
+import StainStart2 from "../../images/start/Stain-Purple-2.svg";
+import StainStart3 from "../../images/start/Stain-Stripes-Pink.svg";
+import StainStart4 from "../../images/start/Stain-Stripes-White.svg";
 
 export default function BackgroundStart() {
   return (

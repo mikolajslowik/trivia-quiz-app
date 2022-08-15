@@ -1,5 +1,5 @@
-import { useAppDispatch } from "../../../app/hooks";
-import { setDifficultyMode } from "../../../features/quiz/quizSlice";
+import { useAppDispatch } from "../../app/hooks";
+import { setDifficultyMode } from "../../features/quiz/quizSlice";
 import "./select.css";
 
 function Select() {
