@@ -1,8 +1,8 @@
 import "./App.css";
 import { useAppSelector } from "./app/hooks";
-import Game from "./components/gameComponents/Game";
-import GameSummary from "./components/gameSummaryComponents/GameSummary";
-import Start from "./components/startComponents/Start";
+import Game from "./components/gameComponents/game/Game";
+import GameSummary from "./components/gameSummaryComponents/gameSummary/GameSummary";
+import Start from "./components/startComponents/start/Start";
 import { selectPageMode } from "./features/quiz/quizSlice";
 
 function App() {

@@ -1,7 +1,7 @@
+import { QuestionBlockProps } from "../../../interfaces";
+import Button from "../button/Button";
+import ProgressBar from "../progressBar/ProgressBar";
 import "./questionBlock.css";
-import { QuestionBlockProps } from "../../interfaces";
-import ProgressBar from "./ProgressBar";
-import Button from "./Button";
 
 function QuestionBlock(props: QuestionBlockProps) {
   const regexSingleQuotation = /&#039;/g;

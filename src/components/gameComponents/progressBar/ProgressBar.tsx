@@ -1,5 +1,5 @@
-import { useAppSelector } from "../../app/hooks";
-import { selectIndex } from "../../features/quiz/quizSlice";
+import { useAppSelector } from "../../../app/hooks";
+import { selectIndex } from "../../../features/quiz/quizSlice";
 import "./progressBar.css";
 
 function ProgressBar() {

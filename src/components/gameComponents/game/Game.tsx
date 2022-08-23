@@ -1,16 +1,16 @@
 import "./game.css";
-import { useAppDispatch, useAppSelector } from "../../app/hooks";
+import { useAppDispatch, useAppSelector } from "../../../app/hooks";
 import {
   selectDifficulty,
   selectIndex,
   selectQuestions,
   setQuestions,
-} from "../../features/quiz/quizSlice";
-import BackgroundGame from "./BackgroundGame";
+} from "../../../features/quiz/quizSlice";
 import { useEffect, useState } from "react";
-import QuestionBlock from "./QuestionBlock";
-import Loader from "./Loader";
-import Exit from "./Exit";
+import Exit from "../exit/Exit";
+import Loader from "../loader/Loader";
+import QuestionBlock from "../questionBlock/QuestionBlock";
+import BackgroundGame from "../backgroundGame/BackgroundGame";
 
 function Game() {
   const dispatch = useAppDispatch();

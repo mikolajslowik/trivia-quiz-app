@@ -1,10 +1,10 @@
 import "./backgroundFinish.css";
-import StainFinish1 from "../../images/finish/Stain1.svg";
-import StainFinish2 from "../../images/finish/Stain2.svg";
-import StainFinish3 from "../../images/finish/Stain3.svg";
-import StainFinish4 from "../../images/finish/Stain4.svg";
-import StainFinish5 from "../../images/finish/Stain5.svg";
-import StainFinish6 from "../../images/finish/Stain6.svg";
+import StainFinish1 from "../../../images/finish/Stain1.svg";
+import StainFinish2 from "../../../images/finish/Stain2.svg";
+import StainFinish3 from "../../../images/finish/Stain3.svg";
+import StainFinish4 from "../../../images/finish/Stain4.svg";
+import StainFinish5 from "../../../images/finish/Stain5.svg";
+import StainFinish6 from "../../../images/finish/Stain6.svg";
 
 function BackgroundFinish() {
   return (

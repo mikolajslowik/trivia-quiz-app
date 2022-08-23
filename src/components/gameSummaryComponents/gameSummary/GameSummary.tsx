@@ -1,11 +1,11 @@
-import { useAppSelector } from "../../app/hooks";
-import { selectFinalAnswers } from "../../features/quiz/quizSlice";
-import Exit from "../gameComponents/Exit";
-import AnswerBox from "./AnswerBox";
-import BackgroundFinish from "./BackgorunFinish";
+import { useAppSelector } from "../../../app/hooks";
+import { selectFinalAnswers } from "../../../features/quiz/quizSlice";
+import Exit from "../../gameComponents/exit/Exit";
+import AnswerBox from "../answerBox/AnswerBox";
+import BackgroundFinish from "../backgroundFinish/BackgorunFinish";
+import PersonalScore from "../personalScore/PersonalScore";
+import PlayAgainButton from "../playAgainButton/PlayAgainButton";
 import "./gameSummary.css";
-import PersonalScore from "./PersonalScore";
-import PlayAgainButton from "./PlayAgainButton";
 
 function GameSummary() {
   const finalAnswers = useAppSelector(selectFinalAnswers);

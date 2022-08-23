@@ -1,7 +1,7 @@
 import "./answerBox.css";
-import OK from "../../images/finish/OK.svg";
-import NotOK from "../../images/finish/NotOK.svg";
-import { Answer } from "../../interfaces";
+import OK from "../../../images/finish/OK.svg";
+import NotOK from "../../../images/finish/NotOK.svg";
+import { Answer } from "../../../interfaces";
 
 interface AnswerBoxProps {
   result: Answer;
